@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UN" >
+
+    <TextView
+        android:id="@+id/TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="172dp"
+        android:layout_y="34dp"
+        android:text="Introduce tu nombre"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/red" />
+
+    <EditText
+        android:id="@+id/Retriever"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="160dp"
+        android:layout_y="98dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bok"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_x="226dp"
+        android:layout_y="142dp"
+        android:text="OK" />
+
+</AbsoluteLayout>
